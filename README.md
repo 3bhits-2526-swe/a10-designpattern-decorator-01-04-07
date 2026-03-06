@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZXq9zVzz)
 # Decorator Pattern – Bewegtes Objekt erweitern
 
 ## Ausgangssituation
@@ -52,8 +53,13 @@ Am Ende werden mehrere Decorators **kombiniert**.
 Besprecht in eurer Gruppe und beantwortet hier direkt:
 
 1. Was ist das **Basisverhalten** des Programms?
+	- Die reine Bewegung des Objekts zwischen pointA und pointB.
+
 2. Welches Verhalten gehört **nicht direkt** in die Basisklasse?
+	- Der Farbwechsel beim Erreichen eines Zielpunktes (changeColorOnBounce).
+
 3. Warum wäre es problematisch, alle neuen Effekte direkt in derselben Klasse zu implementieren?
+	- Es verletzt das Single Responsibility Prinzip und das Open/Closed Prinzip; die Klasse wird zu groß, unübersichtlich und muss für 	  jeden neuen Effekt verändert werden.
 
 ---
 
