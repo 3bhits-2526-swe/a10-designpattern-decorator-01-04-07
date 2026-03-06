@@ -53,8 +53,13 @@ Am Ende werden mehrere Decorators **kombiniert**.
 Besprecht in eurer Gruppe und beantwortet hier direkt:
 
 1. Was ist das **Basisverhalten** des Programms?
+	- Die reine Bewegung des Objekts zwischen pointA und pointB.
+
 2. Welches Verhalten gehört **nicht direkt** in die Basisklasse?
+	- Der Farbwechsel beim Erreichen eines Zielpunktes (changeColorOnBounce).
+
 3. Warum wäre es problematisch, alle neuen Effekte direkt in derselben Klasse zu implementieren?
+	- Es verletzt das Single Responsibility Prinzip und das Open/Closed Prinzip; die Klasse wird zu groß, unübersichtlich und muss für 	  jeden neuen Effekt verändert werden.
 
 ---
 
